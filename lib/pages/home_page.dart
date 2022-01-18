@@ -8,7 +8,10 @@ class homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Finix"),
+        title: Text(
+          "Finix",
+          style: TextStyle(color: Colors.white),
+        ),
       ),
       body: Center(
         child: Center(
